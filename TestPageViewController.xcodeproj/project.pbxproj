@@ -14,6 +14,7 @@
 		CB36D3401A2D6A8D002CE6E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB36D33F1A2D6A8D002CE6E9 /* Images.xcassets */; };
 		CB36D3431A2D6A8D002CE6E9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB36D3411A2D6A8D002CE6E9 /* LaunchScreen.xib */; };
 		CB36D34F1A2D6A8D002CE6E9 /* TestPageViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB36D34E1A2D6A8D002CE6E9 /* TestPageViewControllerTests.m */; };
+		CB36D35A1A2D6F6D002CE6E9 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB36D3591A2D6F6D002CE6E9 /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		CB36D3481A2D6A8D002CE6E9 /* TestPageViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPageViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB36D34D1A2D6A8D002CE6E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB36D34E1A2D6A8D002CE6E9 /* TestPageViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPageViewControllerTests.m; sourceTree = "<group>"; };
+		CB36D3581A2D6F6D002CE6E9 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		CB36D3591A2D6F6D002CE6E9 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				CB36D33F1A2D6A8D002CE6E9 /* Images.xcassets */,
 				CB36D3411A2D6A8D002CE6E9 /* LaunchScreen.xib */,
 				CB36D3321A2D6A8D002CE6E9 /* Supporting Files */,
+				CB36D3581A2D6F6D002CE6E9 /* TableViewController.h */,
+				CB36D3591A2D6F6D002CE6E9 /* TableViewController.m */,
 			);
 			path = TestPageViewController;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 				CB36D33B1A2D6A8D002CE6E9 /* ViewController.m in Sources */,
 				CB36D3381A2D6A8D002CE6E9 /* AppDelegate.m in Sources */,
 				CB36D3351A2D6A8D002CE6E9 /* main.m in Sources */,
+				CB36D35A1A2D6F6D002CE6E9 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,7 +303,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -332,7 +338,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;

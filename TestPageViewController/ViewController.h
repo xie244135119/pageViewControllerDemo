@@ -9,7 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+{
+    IBOutlet UIScrollView *_currentScrollView;       //当前scrollView
+    IBOutlet UIView *_currentView;
+}
 
 @end
 
